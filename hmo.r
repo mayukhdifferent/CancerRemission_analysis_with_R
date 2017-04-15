@@ -6,6 +6,7 @@
 ## 
 ## Using CancerSurvival xl (coverting it to csv) data
 ## Name ## Mayukh Mukhopadhyay
+## Reference ## http://stats.idre.ucla.edu/other/mult-pkg/introduction-to-generalized-linear-mixed-models/
 ###################################################################
 
 install.packages("ggplot2")
