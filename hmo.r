@@ -196,7 +196,7 @@ myboot <- function(i) {
 }
 
 
-#### Execute with your own risk...My laptop with 2 cores and 4GB got blackedout  5 times and returned output after 2 hours
+#### Execute with your own risk...My laptop with 2 cores and 4GB RAM got blackedout  5 times and returned output after 2 hours
 start <- proc.time()
 res <- parLapplyLB(cl, X = levels(bigdata$Replicate), fun = myboot)
 end <- proc.time()
